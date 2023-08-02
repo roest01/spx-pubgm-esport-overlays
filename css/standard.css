@@ -1,0 +1,197 @@
+@font-face {
+    font-family: AgencyFB;
+    src: url("../fonts/agency_fb.ttf");
+}
+
+:root {
+    /* Standard for all */
+    --font-family: AgencyFB;
+    --event-name-color-1: rgba(33, 68, 140, 0.96);
+    --event-name-color-2: linear-gradient(180deg, #CACBCB, #929293);
+    --main-background-image: url("images/background.png");
+    /* If shards should be shown and animated set to "block", otherwise set to "none". */
+    --show-shards: block;
+
+    /* 01_live-ticker.html */
+    --liver-ticker-ranking-title-color: black;
+    --live-ticker-ranking-background-color: #3d69b5;
+    --live-ticker-ranking-header-color: white;
+    --live-ticker-ranking-header-background-color: black;
+    --live-ticker-ranking-element-color: white;
+    --live-ticker-raking-uneven-background-color: rgba(34, 49, 91, 0.7);
+    --live-ticker-ranking-even-background-color: rgba(39, 49, 63, 0.7);
+    --live-ticker-ranking-blue-zone-background-color-1: rgba(77, 145, 188, 0.5);
+    --live-ticker-ranking-blue-zone-background-color-2: rgba(77, 145, 188, 1);
+    --live-ticker-alive-background-color: #fff;
+    --live-ticker-knocked-background-color: #ff0000;
+    --live-ticker-dead-background-color: #000;
+    --live-ticker-ranking-dead-team-background-color: #000;
+
+    /* 02_elimated.html */
+    --elimated-border-color: rgb(9, 125, 202);
+    --elimated-header-color: rgb(0, 0, 0);
+    --elimated-header-font-family: "UI-Light", Arial, Helvetica, sans-serif;
+    --elimated-header-text-shadow: 0 0 10px rgba(27, 111, 190, 0.733);
+    --elimated-header-background-color: rgba(255, 255, 255, 0.781);
+    --elimated-info-font-family: "UI-Bold", Arial, Helvetica, sans-serif;
+    --elimated-team-color: rgb(255, 255, 255);
+    --elimated-team-text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    --elimated-team-background-color: rgb(7, 93, 143);
+    --elimated-kill-color: rgb(47, 47, 47);
+    --elimated-kill-text-shadow: 0 0 10px rgba(8, 37, 71, 0.2);
+    --elimated-kill-background-color: rgba(197, 219, 236, 0.855);
+
+    /* 03_player-stats.html */
+    --player-stats-stats-container-background-color: rgb(0, 0, 0, 0.3);
+    --player-state-stats-color: white;
+
+    /* 05_map-overlay.html */
+    --map-overlay-background-image: url("images/background_overview.png");
+    --map-overlay-info-background-image: url("images/info_background.png");
+    --map-overlay-list-background-image: url("images/list_background.png");
+    --map-overlay-list-image-background-color: rgb(0, 0, 0, 0.3);
+    --map-overlay-list-color: black;
+
+    /* 10_winner-screen.html */
+    --map-overview-winner-team-background-image: url("images/key_poster.png");
+    --map-overview-marquess-color: white;
+    --map-overview-marquees-border-color: white;
+    --map-overview-marquess-background-color: #546d9b;
+    --map-overview-winner-frame-background-color: #556c9b;
+    --map-overview-winner-frame-image-corner-color: white;
+    --map-overview-winner-frame-image-text-color: white;
+    --map-overview-winner-frame-stats-bigger-color: white;
+    --map-overview-winner-frame-stats-smaller-color: white;
+    --map-overview-winner-frame-divider-color: white;
+
+    /* 11_match-ranking.html */
+    --match-ranking-slogan-color: white;
+    --match-ranking-image-frame-background-img: url("images/key_poster.png");
+    --match-ranking-winner-frame-border-color: white;
+    --match-ranking-winner-frame-shadow-color: rgba(255, 255, 255, 0.5);
+    --match-ranking-winner-frame-background-color: #556c9b;
+    --match-ranking-image-frame-border-color: white;
+    --match-ranking-image-frame-text-color: white;
+    --match-ranking-bigger-text-color: white;
+    --match-ranking-smaller-text-color: white;
+    --match-ranking-divider-color: white;
+    --match-ranking-braket-header-background-color: rgb(34, 50, 78);
+    --match-ranking-braket-header-shadow-color: rgb(61, 88, 139);
+    --match-ranking-braket-header-color: white;
+    --match-ranking-braket-shadow-color: rgb(61, 88, 139);
+    --match-ranking-braket-background-color: rgb(34, 50, 78);
+    --match-ranking-braket-color: white;
+
+    /* 12_match-graph.html */
+    --match-graph-slogan-color: white;
+    --match-graph-description-color: white;
+    --match-graph-elim-graph-background-color: #427dea;
+    --match-graph-damage-graph-background-color: #a2bcec;
+    --match-graph-graph-wrapper-background-color: rgba(52, 88, 152, 0.8);
+    --match-graph-team-color: white;
+    --match-graph-team-background-color: #437eeb;
+    --match-graph-team-logo-background-color: #132656;
+    --match-graph-graph-number-color: black;
+
+    /* 13_top-elims.html */
+    --top-elims-title-color: white;
+    --top-elims-elims-border-color: white;
+    --top-elims-elims-background-color: #546d9b;
+    --top-elims-elims-stats-background-color: #51638f;
+    --top-elims-elims-stats-value-color: white;
+    --top-elims-elims-stats-name-color: #131e35;
+    --top-elims-elims-player-name-color: white;
+    --top-elims-elims-player-background-color: #2b3b5a;
+    --top-elims-elims-frame-background-image: url("images/elims_frame.png");
+
+    /* 14_top-elims-overall.html */
+    --top-elims-overall-title-color: white;
+    --top-elims-overall-elims-border-color: white;
+    --top-elims-overall-elims-background-color: #546d9b;
+    --top-elims-overall-elims-stats-background-color: #51638f;
+    --top-elims-overall-elims-stats-value-color: white;
+    --top-elims-overall-elims-stats-name-color: #131e35;
+    --top-elims-overall-elims-player-name-color: white;
+    --top-elims-overall-elims-player-background-color: #2b3b5a;
+    --top-elims-overall-elims-frame-background-image: url("images/elims_frame.png");
+
+    /* 15_overall-standings.html */
+    --overall-standings-title-wrapper-color: white;
+    --overall-standings-braket-header-background-color: rgb(34, 50, 78);
+    --overall-standings-braket-header-shadow-color: rgb(61, 88, 139);
+    --overall-standings-braket-header-color: white;
+    --overall-standings-braket-background-color: rgb(34, 50, 78);
+    --overall-standings-braket-shadow-color: rgb(61, 88, 139);
+    --overall-standings-braket-color: white;
+    --overall-standings-braket-border-color: white;
+
+    /* 20_table-result.html */
+    --table-event-slogan-color: black;
+    --table-event-background-image: url("images/event_slogan_background.png");
+    --table-inner-wrapper-background-image: url("images/inner_background.png");
+    --table-slogan-color: black;
+    --table-slogan-background-image: url("images/slogan_background.png");
+    --table-grouping-background-image: url("images/grouping_background.png");
+    --table-braket-header-color: black;
+    --table-braket-color: white;
+    --table-braket-background-image: url("images/braket_background.png");
+
+    /* 21_map-overview.html */
+    --map-overview-match-done-background-color: black;
+    --map-overview-match-frame-background-image: url("images/match_frame.png");
+    --map-overview-match-team-name-color: white;
+    --map-overview-match-info-color: white;
+    --map-overview-match-info-background-color: #2c3c5b;
+    --map-overview-match-map-name-color: white;
+    --map-overview-match-map-background-color: #556c9b;
+
+    /* 25_points.html */
+    --points-item-border: 2px solid black;
+    --points-item-background-color: white;
+    --points-item-points-color: black;
+    --points-item-place-color: white;
+    --points-item-place-background-color: black;
+
+    /* 26_slots.html */
+    --slots-team-name-color: white;
+    --slots-logo-border: 2px solid white;
+}
+
+/* Standard CSS for better fine adjustment in all files */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+body {
+    margin: 0;
+    line-height: inherit;
+}
+
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+#backgroundVideo {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+}
