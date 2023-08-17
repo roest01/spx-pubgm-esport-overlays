@@ -2,7 +2,7 @@
 
 ## Branding
 Modify `css/standard.css` for your needs. You can make you own branding including background and color.
-the most important part is to setup your background.png which gets used for all screens.
+the most important part is to setup your background.png which gets used for all screens. You can also use animated background within background.mp4. If background.mp4 exist it will be shown above background.png
 
 ## Logos
 Don't forget to activate "show logos" for the screen. This demo include all logos and will show properly. Put all logos in `team_logos` folder by `$tag.png`
@@ -19,7 +19,7 @@ package can use with or without logos. Use the toggle in spx interface to activa
 run "live ranking" and "eliminated" both on different layers. The eleminated message get displayed when a team reach 0 players in ALIVE field. Be sure to update "kills" first for this team before killing it via sheet. 
 
 ## After game
-When the game is over enter the winning team imidiatly into the first field of the round. Use the tag and insert kills very fast. Then display the winner screen. Then you have time to fill out the remaining results while the winner stream is visible or go into highlights. 
+When the game is over enter the winning team immediately into the first field of the round. Use the tag and insert kills very fast. Then display the winner screen. Then you have time to fill out the remaining results while the winner stream is visible or go into highlights. 
 
 ## After results
 When you have insert all results into the round you can display statistics and match results screen. The spx layout automatically use the latest round as data source. No need to select round manually. The overall result allows you to select a round so youre be able to compare the rounds and use next to animate from round 1 into round 2 
