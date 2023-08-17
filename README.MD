@@ -61,21 +61,16 @@ The animation is way smoother if you use the layer feature of spx. Put winner sc
 ![top-elims](demo/top-elims-overall.png)
 
 ## 15_overall-standings.html
-![overall standings](demo/overall_standings.png)
+![overall standings](demo/overall-standings.png)
 
-## 20_table-result.html
-![Match Result](demo/match-result.png)
+## 16_table-result.html
+![Table Result](demo/table-result.png)
 
-## 21_map-overview.html
+## 17_map-overview.html
 ![Map Overview](demo/map-overview.png)
 
-## 25_points.html
+## 18_points.html
 ![Points](demo/points.png)
 
-## 26_slots.html
+## 19_slots.html
 ![slots](demo/slots.png)
-
-# 1vs1 Tournament Format
-
-## brakets.html
-@ todo
