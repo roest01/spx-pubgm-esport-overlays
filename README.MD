@@ -58,7 +58,7 @@ The animation is way smoother if you use the layer feature of spx. Put winner sc
 ![top-elims](demo/top-elims.png)
 
 ## 14_top-elims-overall.html
-![top-elims](demo/top-elims-overall.png)
+![top-elims-overall](demo/top-elims-overall.png)
 
 ## 15_overall-standings.html
 ![overall standings](demo/overall-standings.png)
