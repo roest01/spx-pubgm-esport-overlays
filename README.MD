@@ -1,9 +1,12 @@
 # SPX - Battle Royale - Live Result Package
 
+To obtain more information and access to the software, please visit https://services.euroelite.online/. We offer various options, ranging from a simple stream for your event to full-scale production on your channel, as well as free use of the software for you and your events.
 
 # Files in this package
+All the files are configured on different layers for user-friendly accessibility in SPX. They are added in a way that even a novice can quickly grasp the operation. Simply follow from top to bottom and play them sequentially. The layers always stack on top of each other. Below, you'll find a list of all the templates offered in this package, divided into the categories "During the Game" and "After the Game."
 
-# While game running
+
+# During the Game
 
 ## 01_live-ticker.html
 ![Live-Ticker](demo/live-ticker.png)
@@ -17,7 +20,8 @@
 ## 05_map-overlay.html
 ![Map Overlay](demo/map-overlay.png)
 
-# After Match
+# After the Game
+
 ## 10_winner-screen.html
 ![Winner Screen](demo/winner-screen.png)
 
@@ -92,3 +96,5 @@ The animation is way smoother if you use the layer feature of spx. Put winner sc
 The rundown in spx is prepaired like this. You can simply play all files from top to buttom for each round. Layer 1-5 is preserved while game is running. Layer 10 (winner screen) starts imidiatly after game is finished. **just "play" from top to bottom.
 
 ![spx rundown layers](demo/spx_rundown_layers.png)
+
+Get in touch on https://discord.gg/euroelite and ask for roest.
