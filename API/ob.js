@@ -7,7 +7,7 @@ const responseEncoding = 'utf8';
 const httpOptions = {
     hostname: 'script.google.com',
     port: '443',
-    path: '/macros/s/XXXXXXXXXX/exec',
+    path: '/macros/s/XXXXXXXXXX/exec', //REPLACE YOUR EUROELITE MACRO ID HERE !
     method: 'POST',
     headers: {"Content-Type":"application/json; charset=utf-8"}
 };
