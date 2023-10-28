@@ -123,7 +123,8 @@ app.totalmessage = function(request, response) {
                     app.sendToGoogle(body);
                     setTimeout(() => {
                         try {
-                            app.sendToGoogle("{ matchFinished: true }");
+                            app.sendToGoogle('{"matchFinished":"true"}');
+                            console.log("Send match finished");
                         } catch (e) {
                             console.info(e);
                         }
